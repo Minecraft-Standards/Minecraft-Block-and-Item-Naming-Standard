@@ -1,0 +1,75 @@
+Minecraft Block and Item Naming Standard
+
+Created by HittmanA
+Version: 0.5.0
+
+BLOCK AND ITEM NAMING STANDARD:
+
+==DEFINITIONS==
+
+ITEM: Something which CANNOT be place into the world. Examples include but are not limited to:
+      - Tools
+      - Weapons
+      - Armour
+      - Food
+      - Ingots
+      
+BLOCK: Something which CAN be placed into the world. Examples include but are not limited to:
+       - Dirt
+       - Stone + variants
+       - Glass + variants
+       - Ingot blocks
+       - Door + variants
+       
+VARIANT: A variant is a block or item that has the same ID as another block or item but a different meta value
+
+ITEM MATERIAL VARIANT: A material variant means that the item is the same type (Sword, Pickaxe, Helmet, Ingot, etc.), but is made of a different material. Example: Iron sword and Gold sword, Gold shovel and Iron shovel.
+
+BREWING: The act of using a brewing stand to obtain a new item.
+
+FOOD ITEM: A food item is an item that can be consumed to restore health or give effects; however a food item may not be obtained through brewing.
+
+NON-FOOD: Non-food means that the item is not a food item.
+
+==DEFINITIONS==
+
+==CONSTANTS==
+
+ALL NAMES MUST BE LOWERCASE
+
+NON-VARIANT BLOCKS AND ITEMS:
+    For blocks and items with NO variants simply use the minecraft name.
+    Format: name
+        Example: Air -> air
+
+==CONSTANTS==
+
+==ITEMS==
+
+    ITEMS WITH MATERIAL VARIANTS:
+        Items with name variants include:
+        - Tools
+        - Weapons
+        - Armour
+        - Ingots
+        For items with a material variation, use the material name and the item. 
+        Format: MATERIAL_ITEM
+            Example: Iron Ingot -> iron_ingot, Gold Ingot -> gold_ingot, Iron Shovel -> iron_shovel, Gold Shovel -> gold_shovel
+
+==ITEMS
+
+==BLOCKS==
+
+    SLABS:
+        Definition: a slab is a block that is half the width of a dirt block.
+        Slabs should be named according to their material type.
+        Format: MATERIAL_slab
+            Example: Stone Slab -> stone_slab, Brick slab -> brick_slab, Quartz slab -> quartz_slab
+            
+    ITEM BLOCKS:
+        Definition: an item block is a block made by putting one NON-FOOD item type (Iron, Diamond, Gold, Emerald, Coal) in a 3x3 square in a crafting table.
+        Item Blocks should be named according to the item they are made out of.
+        Format: ITEM_block
+            Example: Block of Iron -> iron_block, Block of Diamond -> diamond_block, Block of Coal -> coal_block
+        
+==BLOCKS==
