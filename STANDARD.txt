@@ -1,7 +1,11 @@
 Minecraft Block and Item Naming Standard
 
 Created by HittmanA
-Version: 0.5.0
+Version 0.5.0
+
+The standards in this file are applicable to anything minecraft related; including Mods, Plugins, Server Software, and anything else where naming Minecraft items or blocks is required.
+
+MOD AND PLUGIN AUTHORS: PLEASE READ THE ==CUSTOM ITEMS== section.
 
 BLOCK AND ITEM NAMING STANDARD:
 
@@ -39,7 +43,7 @@ ALL NAMES MUST BE LOWERCASE
 
 NON-VARIANT BLOCKS AND ITEMS:
     For blocks and items with NO variants simply use the minecraft name.
-    Format: name
+    Format: NAME
         Example: Air -> air
 
 ==CONSTANTS==
@@ -47,7 +51,7 @@ NON-VARIANT BLOCKS AND ITEMS:
 ==ITEMS==
 
     ITEMS WITH MATERIAL VARIANTS:
-        Items with name variants include:
+        Items with material variants include:
         - Tools
         - Weapons
         - Armour
@@ -56,7 +60,7 @@ NON-VARIANT BLOCKS AND ITEMS:
         Format: MATERIAL_ITEM
             Example: Iron Ingot -> iron_ingot, Gold Ingot -> gold_ingot, Iron Shovel -> iron_shovel, Gold Shovel -> gold_shovel
 
-==ITEMS==
+==ITEMS
 
 ==BLOCKS==
 
@@ -67,9 +71,26 @@ NON-VARIANT BLOCKS AND ITEMS:
             Example: Stone Slab -> stone_slab, Brick slab -> brick_slab, Quartz slab -> quartz_slab
             
     ITEM BLOCKS:
-        Definition: an item block is a block made by putting one NON-FOOD item type (Iron, Diamond, Gold, Emerald, Coal) in a 3x3 square in a crafting table.
+        Definition: an item block is a block made by putting one NON-FOOD item type (Iron, Diamond, Gold, Emerald, Coal, etc.) in a 3x3 square in a crafting table.
         Item Blocks should be named according to the item they are made out of.
         Format: ITEM_block
             Example: Block of Iron -> iron_block, Block of Diamond -> diamond_block, Block of Coal -> coal_block
         
+    FLOWERS:
+        Definition: a flower is any block that resembles a real life flower (Lilac, Tulip, Peony, etc.) and servers no practical purpose besides decoration or dye crafting.
+        Flowers should be named the same as the real life flower they are meant to represent. If the flower is not meant to represent a real life flower, name it any single word name.
+        Format: NAME
+            Example: Peony -> peony, Lilac -> lilac, Rose -> rose
+        SEE ALSO: For flowers in which the color is a variant (Lilys), please see FLOWER COLOR VARIANTS.
+        
+    FLOWER COLOR VARIANTS:
+        Definition: flower color variants are flowers of the same type or species that differ in color. Examples include:
+        - Red tulip
+        - Blue tulip
+        - White tulip
+        - Pink tulip
+        When naming a flower color variant name it with its color preceded by its type or species.
+        Format: COLOR_SPECIES
+            Example: Red Tulip -> red_tulip, Yellow Tulip -> yellow_tulip, White Tulip -> white_tulip
+            
 ==BLOCKS==
