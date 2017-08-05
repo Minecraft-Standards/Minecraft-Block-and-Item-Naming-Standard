@@ -60,7 +60,7 @@ NON-VARIANT BLOCKS AND ITEMS:
         Format: MATERIAL_ITEM
             Example: Iron Ingot -> iron_ingot, Gold Ingot -> gold_ingot, Iron Shovel -> iron_shovel, Gold Shovel -> gold_shovel
 
-==ITEMS
+==ITEMS==
 
 ==BLOCKS==
 
