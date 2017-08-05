@@ -5,7 +5,7 @@ Version 0.5.0
 
 The standards in this file are applicable to anything minecraft related; including Mods, Plugins, Server Software, and anything else where naming Minecraft items or blocks is required.
 
-MOD AND PLUGIN AUTHORS: PLEASE READ THE ==CUSTOM ITEMS== section.
+MOD AND PLUGIN AUTHORS: PLEASE READ THE ==MOD== section.
 
 BLOCK AND ITEM NAMING STANDARD:
 
@@ -94,3 +94,12 @@ NON-VARIANT BLOCKS AND ITEMS:
             Example: Red Tulip -> red_tulip, Yellow Tulip -> yellow_tulip, White Tulip -> white_tulip
             
 ==BLOCKS==
+
+==MOD==
+
+    CUSTOM MOD OR PLUGIN ITEMS:
+        Definition: a custom mod or plugin item is any item which does not exist in vanilla minecraft, or any item who's functionality has been changed so it behaves differently than in vanilla minecraft.
+        When naming a custom mod or plugin item, prefix the name of the item with your mod or plugin name. Make sure to conform to the rest of the standards set forth here.
+        Format: MOD-OR-PLUGIN-NAME_itemname
+            Example: CustomMod Restone Sword -> custommod_redstone_sword, PluginPlus Gold Shovel -> pluginplus_gold_shovel
+==MOD==
